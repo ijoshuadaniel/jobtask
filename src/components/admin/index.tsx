@@ -8,7 +8,7 @@ const Admin = () => {
   const navigate = useNavigate();
   const [msg, setMsg] = useState("");
   const { user, setuser } = useContext(AppContext);
-  const { loading, postMethod } = useApi();
+  const { postMethod } = useApi();
   const [userData, setUserData] = useState({
     name: "",
     email: "",
